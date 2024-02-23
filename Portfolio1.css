@@ -1,0 +1,14 @@
+body{
+	background-color:#cfd8e8;
+	margin:50px;
+	margin-top:110px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.container{
+	height:400px;
+	width:800px;
+	border-radius:20px;
+	background-color:white;
+}

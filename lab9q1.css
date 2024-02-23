@@ -1,0 +1,162 @@
+.one{
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+
+#one{
+	height:200px;
+	width:200px;
+	background-color:red;
+	border:4px solid black;
+	animation-name: one;
+    animation-duration: 4s;
+ 	animation-iteration-count:infinite;
+ 	animation-direction:alternate;
+}
+
+@keyframes one{
+	from{
+		background-color:red;
+	}
+	to{
+			background-color:yellow;
+
+	}
+}
+
+
+.two{
+	width:100%;
+	height:250px;
+}
+
+
+#two{
+	height:200px;
+	width:200px;
+	position:relative;
+	top:0px;
+	background-color:red;
+	border:4px solid black;
+	animation-name:two;
+	animation-iteration-count:infinite;
+	animation-duration:10s;
+	animation-timing-function:ease-in;
+}
+
+@keyframes two{
+	0%{
+
+	}
+	25%{
+		transform:translateX(1100px);
+	}
+	26%{
+		position:relative;
+		right:0px;
+	}
+
+	75%{
+				transform:translateY(50px);
+
+	}
+	100%{
+				transform:translateX(30px);
+
+	}
+}
+
+
+
+.three{
+	width:100%;
+	display:flex;
+	justify-content:center;
+
+}
+
+
+#three{
+	height:200px;
+	width:200px;
+	background-color:green;
+	border:4px solid black;
+	animation-name:three;
+	animation-duration:5s;
+	animation-delay:2s;
+	animation-duration:5s;
+	
+}
+
+@keyframes three{
+	from{
+		background-color:green;
+	}
+	to{
+		background-color:blue;
+	}
+}
+
+
+
+.four{
+	width:100%;
+	height:250px;
+}
+
+
+#four{
+	height:200px;
+	width:200px;
+	position:relative;
+	top:0px;
+	background-color:red;
+	border:4px solid black;
+	animation-name:two;
+	animation-iteration-count:infinite;
+	animation-duration:10s;
+	animation-timing-function:ease-in;
+}
+
+
+
+.five{
+	width:100%;
+	height:250px;
+}
+
+
+#five{
+	height:200px;
+	width:200px;
+	position:relative;
+	top:0px;
+	background-color:red;
+	border:4px solid black;
+	animation-name:two;
+	animation-iteration-count:infinite;
+	animation-duration:10s;
+	animation-timing-function:ease-in;
+}
+
+
+
+.six{
+	width:100%;
+	height:250px;
+}
+
+
+#six{
+	height:200px;
+	width:200px;
+	position:relative;
+	top:0px;
+	background-color:red;
+	border:4px solid black;
+	animation-name:two;
+	animation-iteration-count:infinite;
+	animation-duration:10s;
+	animation-timing-function:ease-in;
+}

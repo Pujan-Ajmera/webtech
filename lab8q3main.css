@@ -1,0 +1,172 @@
+nav{
+	height:80px;
+	width:100%;
+	background-color:#3B798C;
+}
+
+#logo{
+	height:60px;
+	margin-left:30px;
+	
+	margin-top:10px;
+}
+
+
+
+.logocontainer{
+	float:left;
+}
+
+.home{
+	float:right;
+	margin-right:30px;
+	margin-top:23px;
+	font-size:20px;
+	color:white;
+}
+
+.menu{
+	margin-right:175px;
+}
+
+#talk{
+	height:50px;
+	width:130px;
+	font-size:25px;
+	font-weight:bolder;
+	border-top-left-radius:40px;
+    border-top-right-radius:40px;
+	border-bottom-left-radius:40px;
+	border-bottom-right-radius:40px;
+	position:relative;
+	left:1000px;
+	top:9px;
+
+}
+
+#pujanname{
+	font-size:40px;
+	font-weight:bolder;
+	background-color:#3B798C;
+	-webkit-background-clip:text;
+	color:transparent;
+	text-align:center;
+}
+
+#pujan{
+	text-align:center;
+	word-spacing:10px;
+	font-size:35px;
+	font-weight:bolder;
+}
+
+.bodybutton{
+	height:50px;
+	width:150px;
+	font-size:13px;
+	font-weight:700;
+	border-top-left-radius:40px;
+    border-top-right-radius:40px;
+	border-bottom-left-radius:40px;
+	border-bottom-right-radius:40px;
+	background-color:#96AFB8;
+	color:rgba(255,255,255,1);
+}
+
+.years{
+	font-size:10px;
+}
+
+#image{
+	height:200px;
+	width:120px;
+	border-radius:50px 50px 50px 50px;
+	border:1px solid red;
+	background-image:url(images/weekend.jpg);
+	background-position:center;
+	background-size:cover;
+
+}
+
+.pics{
+	display:flex;
+	justify-content:center;
+}
+
+#bb2{
+	align-self:end;
+}
+
+
+.company{
+	height:80px;
+	width:100%;
+	background-color:#3B798C;
+	position:relative;
+	top:25px;
+}
+
+
+#com{
+	position:relative;
+	top:10px;
+}
+
+button{
+	transition:2s;
+}
+button:hover{
+	background:linear-gradient(to right,#96AFB8,#AB576B);
+	color:#334Aaf;
+	box-shadow: 2px 2px grey;
+	
+}
+
+#talk:hover{
+	box-shadow: 3px 3px #3b798c;
+}
+
+footer{
+	height:300px;
+	width:100%;
+	background-color:#5894A8;
+}
+
+
+#me{
+	font-size:25px;
+	font-weight:bolder;
+	position:relative;
+	top:50px;
+}
+
+
+#abtmetextconatiner{
+	height:150px;
+	width:150px;
+	margin-top:50px;
+	margin-left:100px;
+	float:left;
+}
+
+
+#abtmetext{
+	font-weight:bolder;
+	font-size:45px;
+}
+
+#loremtextcontainer{
+	height:150px;
+	width:900px;
+	margin-top:50px;
+	margin-right:50px;
+	float:right;
+	text-align:center;
+}
+
+#loremtext{
+
+	font-size:25px;
+	opacity:0.9;
+}
+
