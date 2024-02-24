@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>a1lab11</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .container{
+        height:1000px;
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        gap:50px;
+      }
+
+      #d1{
+        height:400px;
+        width:400px;
+        border:2px solid red;
+        background-image: linear-gradient(to bottom,red,yellow);
+      }
+
+       #d2{
+        height:400px;
+        width:400px;
+        border:2px solid red;
+        background-image: radial-gradient(circle,red,yellow,green);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="d1"></div>
+      <div id="d2"></div>
+    </div>
+  </body>
+</html>
