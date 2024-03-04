@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .bdy{
+            height: 100vh;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("https://i.pinimg.com/originals/93/f9/bc/93f9bc315d3897f0acd7d16f2306e99d.jpg");
+            background-position:center;
+            background-size: cover;
+            overflow: hidden;
+        }
+
+        .container{
+            height:600px;
+            width:400px;
+            background-color: transparent;
+            backdrop-filter:blur(5px);
+            border:3px solid white;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .container div{
+            height: 100px;
+        }
+        input{
+            height:50%;
+            width: 90%;
+            border-radius: 10px;
+            border:1px solid black;
+            color:white;
+        }
+
+        div button{
+            height:50%;
+            width: 90%;
+            border-radius: 10px;
+           
+        }
+        .login{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            font-weight: bolder;
+            }
+
+            .email{
+                display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .password{
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .blogin{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .blogin button{
+                border:1px solid black;
+                background-color: white;
+                color:black;
+                transition:3ms linear;
+            }
+            .blogin button:hover{
+                background-color: grey;
+                color:black;
+            }
+            .register{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .rmfm{
+                display: flex;
+                justify-content: space-between;
+                align-items:center;
+            }
+            .rmfm div{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width:40%;
+            }
+
+            .p1{
+                color:black;
+            }
+    </style>
+</head>
+<body>
+    
+    <div class="bdy">
+        <div class="container">
+            <div class="login">Login</div>
+            <div class="email">
+                <input type="email" placeholder="Email ID">
+            </div>
+            <div class="password">
+                <input type="password" placeholder="Password">    
+            </div>
+            <div class="blogin">
+                <button>
+                    Login
+                </button>
+            </div>
+            <div class="rmfm">
+                <div><input type="checkbox">RememberMe</div>
+                <div>Forget Me</div>
+            </div>
+           
+            <div class="register">
+                <p class="p1">Dont have a account?Register</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
